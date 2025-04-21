@@ -4,7 +4,7 @@ import logo from '../images/poster.png';
 function Missionimpact() {
   return (
     <div
-      className="relative w-full h-[200px] sm:h-[400px] md:h-[500px] lg:h-[600px] bg-cover bg-center"
+      className="relative w-full h-[200px] sm:h-[300px] md:h-[350px] lg:h-[450px] bg-cover bg-center"
       style={{ backgroundImage: `url(${logo})` }}
     >
       {/* Content */}
@@ -19,7 +19,7 @@ function Missionimpact() {
             href="#"
             className="text-red-500 hover:text-red-700 font-semibold text-xl sm:text-2xl md:text-3xl leading-snug"
           >
-            OUR MISSION <br className="sm:hidden" /> AND VISION
+            OUR MISSION <br className="xl:hidden" /> AND VISION
           </a>
         </div>
       </div>

@@ -110,7 +110,7 @@ function Header() {
         </nav>
 
         {/* Contact Button */}
-        <div className="hidden sm:flex md:w-auto">
+        <div className="hidden lg:flex md:w-auto">
           <Link
             to="/contact"
             className="flex items-center bg-red-400 text-white px-4 py-2 rounded-md text-sm md:text-base hover:bg-red-700 transition"

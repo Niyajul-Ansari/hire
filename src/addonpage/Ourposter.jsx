@@ -4,7 +4,7 @@ import logo from '../images/poster.png';
 function Ourposter() {
   return (
     <div
-      className="relative w-full h-[200px] sm:h-[400px] md:h-[500px] lg:h-[600px] bg-cover bg-center"
+      className="relative w-full h-[200px] sm:h-[300px] md:h-[350px] lg:h-[450px] bg-cover bg-center"
       style={{ backgroundImage: `url(${logo})` }}
     >
       {/* Content */}

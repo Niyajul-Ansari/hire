@@ -23,7 +23,7 @@ const Loginss = () => {
     return (
         <div className="relative font-sans">
             {/* Sticky Top Bar */}
-            <div className="sticky top-0 z-50 bg-gray-100 px-4 py-3 flex flex-row justify-center sm:justify-end items-center gap-2 sm:gap-6 text-white text-sm font-medium shadow-md">
+            <div className="sticky top-0 z-50 bg-gray-100 px-4 py-3 flex flex-row justify-center sm:justify-end items-center gap-6 sm:gap-6 text-white text-sm font-medium shadow-md">
                 <button
                     onClick={() => setShowModal(true)}
                     className="flex items-center gap-2 hover:underline text-black"

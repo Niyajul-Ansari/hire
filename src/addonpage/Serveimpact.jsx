@@ -20,7 +20,7 @@ function Serveimpact() {
             href="#"
             className="text-red-500 hover:text-red-700 font-semibold text-xl sm:text-2xl md:text-4xl leading-snug"
           >
-            INDUSTRIAL <br className="sm:hidden" /> WE SERVE
+            INDUSTRIAL <br className="xl:hidden" /> WE SERVE
           </a>
         </div>
       </div>

@@ -4,7 +4,7 @@ import logos from '../images/image copy.png'
 function HeroSection() {
     return (
       <div className="bg-white py-16 ">
-        <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-start px-4 gap-x-8">
+        <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-start px-4 gap-x-8">
         {/* Left Section */}
           <div className="relative flex items-start justify-center gap-x-4">
           {/* Left Image */}
