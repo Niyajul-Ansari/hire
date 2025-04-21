@@ -6,19 +6,19 @@ function HeroSection() {
       <div className="bg-white py-16 ">
         <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-start px-4 gap-x-8">
         {/* Left Section */}
-        <div className="relative flex items-start gap-x-4">
+          <div className="relative flex items-start justify-center gap-x-4">
           {/* Left Image */}
           <img
             src={logo}
             alt="Left Image"
-            className=" w-49 h-70 object-cover rounded-lg shadow-md "
+            className=" w-40 h-70 object-cover rounded-lg shadow-md ml-5"
           />
 
           {/* Right Image (Handshake) */}
           <img
             src={logos}
             alt="Bottom Image"
-            className="w-45 h-70 object-cover rounded-lg shadow-md gap-16 mt-55"
+            className="w-40 h-70 object-cover rounded-lg shadow-md gap-16 mt-55"
           />
 
           {/* Megaphone Icon */}
