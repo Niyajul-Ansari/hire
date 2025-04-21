@@ -10,7 +10,7 @@ const HireginiePromise = () => {
   return (
     <>
     <Promiseimpact></Promiseimpact>
-    <div className="flex flex-col md:flex-row items-center justify-center bg-white min-h-screen px-4 py-10">
+    <div className="flex flex-col md:flex-row items-center justify-center mt-2 mb-2">
       {/* Left Image Section */}
       <div className="w-full md:w-1/2">
         <img

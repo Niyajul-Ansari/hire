@@ -3,22 +3,22 @@ import logo from '../images/image.png'
 import logos from '../images/image copy.png'
 function HeroSection() {
     return (
-      <div className="bg-white py-16">
-      <div className="max-w-7xl mx-auto flex items-start px-4 gap-x-8">
+      <div className="bg-white py-16 ">
+        <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-start px-4 gap-x-8">
         {/* Left Section */}
         <div className="relative flex items-start gap-x-4">
           {/* Left Image */}
           <img
             src={logo}
             alt="Left Image"
-            className="w-64 h-80 object-cover rounded-lg shadow-md "
+            className=" w-49 h-70 object-cover rounded-lg shadow-md "
           />
 
           {/* Right Image (Handshake) */}
           <img
             src={logos}
             alt="Bottom Image"
-            className="w-60 h-70 object-cover rounded-lg shadow-md gap-16 mt-55"
+            className="w-45 h-70 object-cover rounded-lg shadow-md gap-16 mt-55"
           />
 
           {/* Megaphone Icon */}

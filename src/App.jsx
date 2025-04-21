@@ -13,11 +13,13 @@ import HireginiePromise from "./Aboutcomponent/HireginiePromise";
 import IndustriesWeServe from "./Aboutcomponent/IndustriesWeServe";
 import OurStories from "./Aboutcomponent/OurStories";
 import Scroll from "./scroll";
+import Loginss from "./Component/Loginss";
 
 
 function App() {
   return (
     <>
+     <Loginss/>
       <Header /> 
       <Scroll/> 
       <Routes>

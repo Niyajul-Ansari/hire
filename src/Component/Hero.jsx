@@ -9,7 +9,7 @@ function Hero() {
         {/* Left Side */}
         <div className="text-center md:text-left max-w-2xl px- md:px-15 lg:px-25 py-12 md:py-20">
           <h1 className="text-6xl sm:text-5xl md:text-6xl font-bold text-gray-900 leading-tight">
-            Your No.Talent <span className="text-red-500 underline">Hiring</span> Partner
+            Your No.1 Talent <span className="text-red-500 underline">Hiring</span> Partner
           </h1>
           <p className="mt-4">
             <span className="inline-block text-gray-700 px-4 py-2 rounded-md text-3xl">
